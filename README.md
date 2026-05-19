@@ -3,28 +3,28 @@ Tool: Kibana (Elastic Stack Machine Learning)
 Internship: Appolo Computers Pvt Ltd · Jan–May 2024
 Author: Surbhi Rathore · B.Tech, Banasthali Vidyapith · PGDM (2026)
 ---
-📌 Overview
+📌 Overview:
 This project performs anomaly detection on the Atlanta Crime Dataset using Kibana's built-in Machine Learning capabilities within the Elastic Stack. The goal was to automatically identify statistically significant spikes in crime activity across Atlanta's neighbourhoods — and assign each anomaly a severity score — enabling analysts to prioritise high-urgency incidents without manual data review.
 ---
 🚨 Problem Statement:
 Large urban crime datasets contain thousands of records across multiple neighbourhoods, crime types, and timeframes. Manual review is slow, inconsistent, and error-prone. This project automates the detection of unusual crime patterns and ranks them by urgency so that law enforcement and analysts can act on the most critical events first.
 ---
-📂 Dataset
+📂 Dataset:
 Source: Atlanta Crime Dataset (provided during internship; originally sourced from Kaggle)
-Column	Description
-Crime	Type of offence (theft, burglary, assault, robbery, etc.)
-Date	Date the crime occurred
-Location	Street address of the incident
-Beat	Police patrol zone where the crime occurred
-Neighbourhood	District within Atlanta
-Latitude	Geographic latitude of the crime location
-Longitude	Geographic longitude of the crime location
+Column: Description
+Crime; Type of offence (theft, burglary, assault, robbery, etc.)
+Date: Date the crime occurred
+Location: Street address of the incident
+Beat: Police patrol zone where the crime occurred
+Neighbourhood: District within Atlanta
+Latitude: Geographic latitude of the crime location
+Longitude: Geographic longitude of the crime location
 ---
 ⚙️ Methodology
-Step 1 — Data Ingestion
+Step 1 — Data Ingestion.
 Uploaded the Atlanta Crime Dataset into Elasticsearch (the underlying data store for Kibana)
-Created a Data View (Index Pattern) in Kibana to define how the data is indexed and queried
-Step 2 — Anomaly Detection Job Configuration
+Created a Data View (Index Pattern) in Kibana to define how the data is indexed and queried.
+Step 2 — Anomaly Detection Job Configuration.
 Navigated to the Machine Learning section in Kibana and created a new anomaly detection job using the Multi-Metric Wizard — chosen because it allows simultaneous analysis of multiple crime metrics across the dataset.
 Job settings configured:
 Parameter	Choice	Reason
