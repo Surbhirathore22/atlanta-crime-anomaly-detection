@@ -12,7 +12,7 @@ Large urban crime datasets contain thousands of records across multiple neighbou
 📂 Dataset:
 Source: Atlanta Crime Dataset (provided during internship; originally sourced from Kaggle)
 Column: Description
-Crime; Type of offence (theft, burglary, assault, robbery, etc.)
+Crime: Type of offence (theft, burglary, assault, robbery, etc.)
 Date: Date the crime occurred
 Location: Street address of the incident
 Beat: Police patrol zone where the crime occurred
