@@ -6,7 +6,7 @@ Author: Surbhi Rathore · B.Tech, Banasthali Vidyapith · PGDM (2026)
 📌 Overview
 This project performs anomaly detection on the Atlanta Crime Dataset using Kibana's built-in Machine Learning capabilities within the Elastic Stack. The goal was to automatically identify statistically significant spikes in crime activity across Atlanta's neighbourhoods — and assign each anomaly a severity score — enabling analysts to prioritise high-urgency incidents without manual data review.
 ---
-🚨 Problem Statement
+🚨 Problem Statement:
 Large urban crime datasets contain thousands of records across multiple neighbourhoods, crime types, and timeframes. Manual review is slow, inconsistent, and error-prone. This project automates the detection of unusual crime patterns and ranks them by urgency so that law enforcement and analysts can act on the most critical events first.
 ---
 📂 Dataset
